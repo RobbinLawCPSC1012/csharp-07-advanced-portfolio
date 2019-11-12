@@ -1,0 +1,6 @@
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\obj\Debug\AP1-files-lists-TextProcessing.csproj.CoreCompileInputs.cache
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\bin\Debug\AP1-files-lists-TextProcessing.exe.config
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\bin\Debug\AP1-files-lists-TextProcessing.exe
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\bin\Debug\AP1-files-lists-TextProcessing.pdb
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\obj\Debug\AP1-files-lists-TextProcessing.exe
+C:\Users\robbinl\Source\Repos\csharp-07-advanced-portfolio\AP1-files-lists-TextProcessing\obj\Debug\AP1-files-lists-TextProcessing.pdb
