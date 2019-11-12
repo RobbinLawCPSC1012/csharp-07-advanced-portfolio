@@ -33,19 +33,15 @@ namespace AP1_files_lists_TextProcessing
                 // Write our file data to the screen.
                 string curLine;
                 while ((curLine = reader.ReadLine()) != null)
-                {
-                    Console.WriteLine(wordCount);
+                { 
                     wordsInFile.Add(curLine);
-                    //Console.WriteLine(curLine);
-                    Console.WriteLine(wordsInFile[wordCount]);
-                    wordCount++;
-
                 }
-
-                // Close our reader object.
                 reader.Close();
+                for(int i = 0; i < wordsInFile.Count; i++){
+                    Console.WriteLine($"index: {i}, word: {wordsInFile[i]}");
+                }
                 newRandNum = randNum.Next(0, wordsInFile.Count - 1);
-                Console.WriteLine(newRandNum);
+                Console.WriteLine($"Random index: {newRandNum}");
                 string data = wordsInFile[newRandNum];
                 charsInWord.AddRange(data);
                 for (int i = 0; i < charsInWord.Count; i++)
