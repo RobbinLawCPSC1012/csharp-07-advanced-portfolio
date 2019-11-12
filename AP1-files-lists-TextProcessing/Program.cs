@@ -13,6 +13,7 @@ namespace AP1_files_lists_TextProcessing
         {
             testMethod();
         }
+
         static void testMethod()
         {
             Random randNum = new Random();
