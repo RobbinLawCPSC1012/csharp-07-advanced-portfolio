@@ -11,6 +11,10 @@ namespace AP1_files_lists_TextProcessing
     {
         static void Main(string[] args)
         {
+            testMethod();
+        }
+        static void testMethod()
+        {
             Random randNum = new Random();
             int newRandNum = 0;
             string fname = Path.Combine(Directory.GetCurrentDirectory(), "test.txt");
