@@ -13,9 +13,6 @@ namespace AP1_files_lists_TextProcessing
         {
             Random randNum = new Random();
             int newRandNum = 0;
-            // Get Filename
-            Console.Write("Enter Filename: ");
-            //string fname = Console.ReadLine();
             string fname = Path.Combine(Directory.GetCurrentDirectory(), "test.txt");
             List<string> wordsInFile = new List<string>();
             List<char> charsInWord = new List<char>();
@@ -27,26 +24,24 @@ namespace AP1_files_lists_TextProcessing
                 Console.WriteLine("CurrentDirectory: " + Environment.CurrentDirectory);
                 Console.WriteLine("SystemDirectory: " + Environment.SystemDirectory);
                 Console.WriteLine("TempDirectory: " + Environment.GetEnvironmentVariable("TEMP"));
-
                 StreamReader reader = new StreamReader(fname);
-
-                // Write our file data to the screen.
                 string curLine;
                 while ((curLine = reader.ReadLine()) != null)
                 { 
                     wordsInFile.Add(curLine);
                 }
                 reader.Close();
-                for(int i = 0; i < wordsInFile.Count; i++){
-                    Console.WriteLine($"index: {i}, word: {wordsInFile[i]}");
+                for(int i = 0; i < wordsInFile.Count; i++)
+                {
+                    Console.WriteLine($"word index: {i}, word: {wordsInFile[i]}");
                 }
                 newRandNum = randNum.Next(0, wordsInFile.Count - 1);
-                Console.WriteLine($"Random index: {newRandNum}");
+                Console.WriteLine($"Random word index: {newRandNum}");
                 string data = wordsInFile[newRandNum];
                 charsInWord.AddRange(data);
                 for (int i = 0; i < charsInWord.Count; i++)
                 {
-                    Console.Write($"{charsInWord[i]},");
+                    Console.WriteLine($"char index: {i}, char: {charsInWord[i]}");
                 }
             }
             else
