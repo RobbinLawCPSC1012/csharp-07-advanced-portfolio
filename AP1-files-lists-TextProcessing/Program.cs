@@ -48,6 +48,12 @@ namespace AP1_files_lists_TextProcessing
                 {
                     Console.WriteLine($"char index: {i}, char: {charsInWord[i]}");
                 }
+                Console.WriteLine("");
+               for (int i = 0; i < charsInWord.Count; i++)
+                {
+                    Console.Write($"{charsInWord[i]}");
+                }
+                Console.WriteLine("");
             }
             else
             {
