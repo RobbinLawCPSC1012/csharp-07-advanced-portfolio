@@ -1,0 +1,7 @@
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\bin\Debug\AP2-multidimensionalArray-TicTacToe.exe.config
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\bin\Debug\AP2-multidimensionalArray-TicTacToe.exe
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\bin\Debug\AP2-multidimensionalArray-TicTacToe.pdb
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\obj\Debug\AP2-multidimensionalArray-TicTacToe.csprojAssemblyReference.cache
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\obj\Debug\AP2-multidimensionalArray-TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\obj\Debug\AP2-multidimensionalArray-TicTacToe.exe
+C:\Users\RobbinL\Source\Repos\csharp-07-advanced-portfolio12\AP2-multidimensionalArray-TicTacToe\obj\Debug\AP2-multidimensionalArray-TicTacToe.pdb

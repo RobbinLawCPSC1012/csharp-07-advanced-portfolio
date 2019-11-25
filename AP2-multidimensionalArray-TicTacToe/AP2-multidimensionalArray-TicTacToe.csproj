@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{20DD10D4-E40C-4E6B-AA82-331A9EAFE2F7}</ProjectGuid>
+    <ProjectGuid>{1BA357F6-CF50-4CF7-AC37-E109E41D6DA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AP2_multidimensional_array_TicTacToe</RootNamespace>
-    <AssemblyName>AP2-multidimensional-array-TicTacToe</AssemblyName>
+    <RootNamespace>AP2_multidimensionalArray_TicTacToe</RootNamespace>
+    <AssemblyName>AP2-multidimensionalArray-TicTacToe</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AP2-multidimensional-array-TicTacToe")]
+[assembly: AssemblyTitle("AP2-multidimensionalArray-TicTacToe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AP2-multidimensional-array-TicTacToe")]
+[assembly: AssemblyProduct("AP2-multidimensionalArray-TicTacToe")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("20dd10d4-e40c-4e6b-aa82-331a9eafe2f7")]
+[assembly: Guid("1ba357f6-cf50-4cf7-ac37-e109e41d6da7")]
 
 // Version information for an assembly consists of the following four values:
 //
