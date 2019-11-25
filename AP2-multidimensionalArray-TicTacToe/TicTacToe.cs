@@ -9,7 +9,6 @@ namespace AP2_multidimensionalArray_TicTacToe
     public class TicTacToe
     {
         private char[,] _board = new char[3, 3];
-        private char _currentPlayer = 'X';
 
         public char[,] Board
         {
@@ -20,19 +19,6 @@ namespace AP2_multidimensionalArray_TicTacToe
             set
             {
                 _board = value;
-            }
-        }
-
-        public char CurrentPlayer
-        {
-            get => _currentPlayer;
-            set
-            {
-                char c = Char.ToUpper(value);
-                if (c == 'X' || c == 'O')
-                    _currentPlayer = c;
-                else
-                    throw new Exception("Current Player must be an 'X' or an 'O'");
             }
         }
 
@@ -48,6 +34,17 @@ namespace AP2_multidimensionalArray_TicTacToe
                     count++;
                 }
             }
+        }
+
+        public void Draw()
+        {
+            Console.WriteLine("\n-------------");
+            Console.WriteLine($"| {Board[2, 0]} | {Board[2, 1]} | {Board[2, 2]} |");
+            Console.WriteLine("-------------");
+            Console.WriteLine($"| {Board[1, 0]} | {Board[1, 1]} | {Board[1, 2]} |");
+            Console.WriteLine("-------------");
+            Console.WriteLine($"| {Board[0, 0]} | {Board[0, 1]} | {Board[0, 2]} |");
+            Console.WriteLine("-------------");
         }
     }
 }
