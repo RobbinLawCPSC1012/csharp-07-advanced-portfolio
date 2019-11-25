@@ -18,18 +18,51 @@ namespace AP1_files_lists_TextProcessing
         {
             Random randNum = new Random();
             int newRandNum = 0;
-            string fname = Path.Combine(Directory.GetCurrentDirectory(), "test.txt");
+            string myDir = "temp";
+            string myFile = "test.txt";
+            string myDirPath = @"C:\temp";
+            string path = @"C:\temp\test.txt";
+
+            Console.WriteLine($"CurrentDirectory: {Environment.CurrentDirectory}\n");
+            Console.WriteLine($"SystemDirectory: {Environment.SystemDirectory}\n");
+            Console.WriteLine($"TempDirectory: {Environment.GetEnvironmentVariable("TEMP")}\n");
+
+            //string fname = Path.Combine(Directory.GetCurrentDirectory(), "test.txt");
+            if(Directory.Exists(myDirPath))
+            {
+                Console.WriteLine($"{myDirPath} is a valid directory\n");
+            }
+
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            if (!File.Exists(path))
+            {
+                // Create a file to write to.
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine("program");
+                    sw.WriteLine("loop");
+                    sw.WriteLine("break");
+                    sw.WriteLine("for");
+                    sw.WriteLine("list");
+                    sw.WriteLine("method");
+                    sw.WriteLine("property");
+
+                }
+                
+            }
+
             List<string> wordsInFile = new List<string>();
             List<char> charsInWord = new List<char>();
             int wordCount = 0;
 
             // check if File exists
-            if (File.Exists(fname))
+            if (File.Exists(path))
             {
-                Console.WriteLine("CurrentDirectory: " + Environment.CurrentDirectory);
-                Console.WriteLine("SystemDirectory: " + Environment.SystemDirectory);
-                Console.WriteLine("TempDirectory: " + Environment.GetEnvironmentVariable("TEMP"));
-                StreamReader reader = new StreamReader(fname);
+                
+                StreamReader reader = new StreamReader(path);
                 string curLine;
                 while ((curLine = reader.ReadLine()) != null)
                 { 
@@ -40,8 +73,9 @@ namespace AP1_files_lists_TextProcessing
                 {
                     Console.WriteLine($"word index: {i}, word: {wordsInFile[i]}");
                 }
+                Console.WriteLine($"");
                 newRandNum = randNum.Next(0, wordsInFile.Count - 1);
-                Console.WriteLine($"Random word index: {newRandNum}");
+                Console.WriteLine($"Random word index: {newRandNum}\n");
                 string data = wordsInFile[newRandNum];
                 charsInWord.AddRange(data);
                 for (int i = 0; i < charsInWord.Count; i++)
@@ -57,7 +91,7 @@ namespace AP1_files_lists_TextProcessing
             }
             else
             {
-                Console.WriteLine($"The filename {fname} does not exist.");
+                Console.WriteLine($"The filename {path} does not exist.");
             }
 
         }
