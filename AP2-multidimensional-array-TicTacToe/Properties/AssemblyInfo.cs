@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AP2-multidimensional-array-TIicTacToe-Demo")]
+[assembly: AssemblyTitle("AP2-multidimensional-array-TicTacToe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AP2-multidimensional-array-TIicTacToe-Demo")]
+[assembly: AssemblyProduct("AP2-multidimensional-array-TicTacToe")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
